@@ -2,7 +2,7 @@ import Stripe from 'stripe';
 import express from 'express';
 import cors from 'cors';
 
-const stripe = Stripe('sk_test_51RCWyE2LUDMdkrUfC9o3O9d1hEty9ZU5twOxjKgnLsS7KMOr66IWTYnBHOuj7yog2WwsRFaB786qg79KYlaxOuRR00LjNIHbY7');
+const stripe = Stripe(process.env.STRIPE_SECRET);
 const app = express();
 const YOUR_DOMAIN = 'http://localhost:4242';
 const FRONT_DOMAIN = 'http://localhost:5174';
