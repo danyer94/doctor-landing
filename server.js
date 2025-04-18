@@ -4,8 +4,7 @@ import cors from 'cors';
 
 const stripe = Stripe(process.env.STRIPE_SECRET);
 const app = express();
-const YOUR_DOMAIN = 'http://localhost:4242';
-const FRONT_DOMAIN = 'http://localhost:5174';
+const FRONT_DOMAIN = process.env.FRONT_DOMAIN;
 
 const PRODUCTS = {
   basic_monthly: {
