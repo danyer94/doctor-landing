@@ -44,7 +44,7 @@ const About: React.FC = () => {
           <div className="relative order-2 md:order-1">
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80"
+                src="media\images\WhatsApp Image 2025-04-06 at 10.28.31 PM.jpeg"
                 alt="Dr. Khristian González"
                 className="rounded-2xl shadow-2xl w-full h-[600px] object-cover object-center"
               />
@@ -97,3 +97,6 @@ const About: React.FC = () => {
 };
 
 export default About;
+
+
+//https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80 

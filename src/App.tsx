@@ -7,6 +7,7 @@ import Testimonials from './components/Testimonials';
 import Transformations from './components/Transformations';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Stripe from './components/Stripe';
 
 const App: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const App: React.FC = () => {
       <Navbar />
       <main>
         <Hero />
+        <Stripe />
         <About />
         <Services />
         <Transformations />

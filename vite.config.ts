@@ -14,4 +14,7 @@ export default defineConfig({
       ],
     },
   },
+  server: {
+    port: 5174, // Puerto que deseas usar
+  },
 });
