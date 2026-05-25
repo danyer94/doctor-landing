@@ -1,10 +1,15 @@
 import Stripe from 'stripe';
 import express from 'express';
 import cors from 'cors';
+import * as dotenv from 'dotenv'
+dotenv.config()
 
-const stripe = Stripe(process.env.STRIPE_SECRET);
-const app = express();
+const stripeSecret = process.env.STRIPE_SECRET
 const FRONT_DOMAIN = process.env.FRONT_DOMAIN;
+
+const stripe = Stripe(stripeSecret);
+const app = express();
+
 
 const PRODUCTS = {
   basic_monthly: {
